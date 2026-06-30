@@ -13,6 +13,9 @@ npm run dev
 
 # Build for production
 npm run build
+
+# Build for production
+npm run test
 ```
 
 ## Usage
@@ -47,7 +50,3 @@ modifiers using `+` (add) or `-` (subtract) operators.
 | now()+8d           | Now plus 8 days                 |
 | now()+10d+12h      | Now plus 10 days and 12 hours   |
 | now()-2d+12h       | Now minus 2 days plus 12 hours  |
-
-## Running Tests
-
-npm test
