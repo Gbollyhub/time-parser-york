@@ -1,4 +1,4 @@
-import { modifyInputData, applyDateTimeCalc } from "./util";
+import { modifyInputData, applyDateTimeCalc } from "./utils";
 
 // Parse a time expression such as "now()+1d+12h" and return the result
 // as an ISO-formatted date string.
