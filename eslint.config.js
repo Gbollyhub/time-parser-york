@@ -5,6 +5,6 @@ module.exports = tseslint.config(
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    ignores: ["dist/**"],
+    ignores: ["dist/**", "eslint.config.js"],
   }
 );
