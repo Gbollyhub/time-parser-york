@@ -11,8 +11,8 @@ const modifyInputData = (inputData: string) => {
     if (!match) throw new Error(`Unknown value: ${value}`);
 
     const unit = match[2];
-    if (!Object.prototype.hasOwnProperty.call(TIME_UNITS, unit)) {
-      throw new Error(`Unknown time unit: ${unit}`);
+    if (!(unit in TIME_UNITS)) {
+      throw new Error(`Unknown time unit: "${unit}"`);
     }
 
     records.push({
