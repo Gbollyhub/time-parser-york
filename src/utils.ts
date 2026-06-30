@@ -8,11 +8,11 @@ const modifyInputData = (inputData: string) => {
 
   for (const [, operator, value] of stringSplit) {
     const match = value.match(/(\d+)(\w+)/);
-    if (!match) throw new Error(`Unknown Value`);
+    if (!match) throw new Error(`Unknown value: ${value}`);
 
     const unit = match[2];
     if (!Object.prototype.hasOwnProperty.call(TIME_UNITS, unit)) {
-      throw new Error(`Unknown time unit`);
+      throw new Error(`Unknown time unit: ${unit}`);
     }
 
     records.push({
