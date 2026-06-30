@@ -14,7 +14,7 @@ npm run dev
 # Build for production
 npm run build
 
-# Build for production
+# Run tests
 npm run test
 ```
 
