@@ -1,9 +1,9 @@
-export type TimeUnit = 's' | 'm' | 'h' | 'd' | 'mon' | 'y';
+export type TimeUnit = "s" | "m" | "h" | "d" | "mon" | "y";
 
-export type Operator = '+' | '-';
+export type Operator = "+" | "-";
 
 export interface TimeData {
-    operator: Operator;
-    value: number;
-    unit: TimeUnit;
+  operator: Operator;
+  value: number;
+  unit: TimeUnit;
 }

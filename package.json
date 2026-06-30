@@ -1,7 +1,7 @@
 {
   "name": "time-parser-york",
   "version": "1.0.0",
-  "description": "",
+  "description": "Relative Time Parser",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
@@ -9,7 +9,7 @@
     "start": "node dist/index.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "lint": "eslint .",
+    "lint": "eslint 'src/**/*.ts' 'tests/**/*.ts'",
     "lint:fix": "eslint . --fix"
   },
   "keywords": [],
