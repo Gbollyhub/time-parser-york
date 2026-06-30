@@ -4,9 +4,16 @@ A TypeScript function that parses relative time modifier
 strings (similar to Splunk's format) and returns a UTC Date.
 
 ## Installation
-git clone
+```bash
+# Install dependencies
 npm install
+
+# Start dev server
 npm run dev
+
+# Build for production
+npm run build
+```
 
 ## Usage
 
